@@ -1,27 +1,13 @@
-.images{
-	
-	width: 100%;
-	height: 100%;
-}
 
-.col-sm-4{
-	margin-top:20px;
-}
+@media screen and (max-width: 991px) {
 
-
-
-@media screen and (max-width: 768px) {
-
-#categorias-responsive{
+	#categorias-responsive{
             display:none;
       }  
 }
 
-@media only screen and (max-width: 991px) {
-    /* For mobile phones: */
-    .col-sm-4{
-	margin-top:20px;
-	display:inline-block;
-	width:40%;
-}
+
+.images{
+	height: 100%;
+	width:  100%;
 }
